@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">朋也社区</string>
+
+    <string name="logo_url">bbs.tomoya.cn</string>
+    <string name="logo_slogan">更好用的Java社区</string>
+
+    <string name="tab_top">置顶</string>
+    <string name="tab_all">全部</string>
+    <string name="tab_good">精华</string>
+    <string name="tab_share">分享</string>
+    <string name="tab_ask">问答</string>
+    <string name="tab_job">招聘</string>
+    <string name="tab_pybbs">朋也社区</string>
+    <string name="tab_news">资讯</string>
+
+    <string name="notification">消息</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+
+    <string name="click_avatar_to_login">点击头像登录</string>
+    <string name="press_back_again_to_exit">再按一次退出</string>
+
+    <string name="access_token_auth_error">AccessToken验证错误</string>
+    <string name="access_token_format_error">AccessToken格式错误，应为UUID</string>
+    <string name="access_token_out_of_date">您的AccessToken已经过期，您可能需要重新登录账户。</string>
+
+    <string name="login">登录</string>
+    <string name="logout">注销</string>
+    <string name="need_login_tip">该操作需要登录账户。是否现在登录？</string>
+    <string name="logout_tip">确定要注销吗？</string>
+    <string name="logging_in_$_">正在登录中&#8230;</string>
+    <string name="login_success">登录成功</string>
+    <string name="relogin">重新登录</string>
+
+    <string name="no_data">暂无数据</string>
+    <string name="no_message">暂无消息</string>
+    <string name="no_reply">暂无回复</string>
+    <string name="data_load_faild_and_click_avatar_to_reload">数据加载失败，点击头像重试</string>
+    <string name="have_no_more_data">已没有更多数据</string>
+    <string name="can_not_up_yourself_reply">不能帮自己点赞</string>
+
+    <string name="topic">话题</string>
+    <string name="new_topic">发布话题</string>
+    <string name="posting_$_">正在发布中&#8230;</string>
+    <string name="post_success">发布成功</string>
+    <string name="title_empty_error_tip">标题不能为空且不能超出120字符</string>
+    <string name="content_empty_error_tip">内容不能为空</string>
+
+    <string name="user_detail">用户资料</string>
+
+    <string name="load_more_endless">加载更多</string>
+    <string name="load_more_fail">加载失败，点击重试</string>
+    <string name="load_more_nomore">已经到底啦</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="ok">好的</string>
+
+    <string name="create_at_$">创建于：</string>
+    <string name="score_$">积分：</string>
+    <string name="register_time_$">注册时间：</string>
+    <string name="$slash">/</string>
+    <string name="$dot">•</string>
+
+    <string name="access_token_$">Access Token :</string>
+    <string name="open_qrcode">扫描二维码</string>
+    <string name="qrcode_request_permission_rationale_tip">二维码扫描组件需要相机权限才能工作，请确保在弹出的授权对话框中为应用授予相机权限。</string>
+    <string name="qrcode_permission_denied_tip">二维码扫描组件无法工作，请确保在设置中为应用授予了相机权限。</string>
+    <string name="open_permissions_request">打开授权</string>
+    <string name="go_to_setting">去设置</string>
+    <string name="can_not_open_camera">无法打开相机</string>
+    <string name="qrcode_tip">将二维码放入扫描框内</string>
+    <string name="$_how_to_get_access_token_$"><u>如何获取Access Token？</u></string>
+    <string name="how_to_get_access_token_tip_content">在朋也社区网站端登录你的账户，然后进入个人主页，点击进入后将页面滑动到最底部来查看你的Access Token。</string>
+
+    <string name="current_version">当前版本</string>
+    <string name="open_source_url">项目开源主页</string>
+    <string name="open_source_url_content">https://github.com/tomoya92/pybbsMD</string>
+    <string name="about_cnode">关于朋也社区</string>
+    <string name="about_cnode_content">https://bbs.tomoya.cn/about</string>
+    <string name="about_author">关于作者</string>
+    <string name="about_author_content">https://tomoya.cn/</string>
+    <string name="advice_feedback">意见反馈</string>
+    <string name="advice_feedback_content">向作者发送电子邮件</string>
+    <string name="open_in_market">去商店评分</string>
+    <string name="open_in_market_content">觉得赞就给个好评吧！</string>
+    <string name="open_source_license">开源协议 MIT</string>
+    <string name="about_copyright">Copyright © 2016 tomoya Powered by CNodeMD</string>
+
+    <string name="no_market_install_in_system">系统中没有安装应用商店</string>
+    <string name="no_browser_install_in_system">系统中没有安装浏览器</string>
+    <string name="no_email_client_install_in_system">系统中没有安装邮件客户端</string>
+    
+    <string name="mark_all_read">全部标记为已读</string>
+    <string name="notice">通知</string>
+    <string name="receive_notification">接收消息推送</string>
+    <string name="receive_notification_summary">开启也没用，这功能压根没做</string>
+    <string name="theme">主题</string>
+    <string name="theme_dark">夜间模式</string>
+    <string name="topic_draft">保存草稿</string>
+    <string name="topic_draft_summary">没有发布的话题内容会被保存</string>
+    <string name="topic_sign">话题小尾巴</string>
+    <string name="topic_sign_summary">开启后可以自定义</string>
+    <string name="modify_topic_sign">设置小尾巴</string>
+    <string name="modify_topic_sign_hint">来点酷炫的，不要写太多字喔&#8230;</string>
+    <string name="default_topic_sign">默认尾巴</string>
+    <string name="topic_render_compat">渲染兼容模式</string>
+    <string name="topic_render_compat_summary">使用WebView代替原生组件进行渲染</string>
+    <string name="topic_render_compat_tip">当前使用原生组件来渲染内容。在设置中开启「渲染兼容模式」选项之后，将会使用WebView来渲染内容。</string>
+
+    <string name="open_in_browser">在浏览器中打开</string>
+    <string name="share">分享</string>
+    <string name="send">发送</string>
+    <string name="send_to_tab_$">发布到分类：</string>
+
+    <string name="create_topic_title_hint">标题，字数10字以上</string>
+    <string name="create_topic_content_hint">说点什么吧&#8230;</string>
+
+    <string name="title">标题</string>
+    <string name="add_link">添加连接</string>
+    <string name="link">连接</string>
+    <string name="http_$">http://</string>
+
+    <string name="markdown_preview">Markdown预览</string>
+    <string name="image_preview">查看图片</string>
+
+    <string name="app_crash">程序崩溃</string>
+    <string name="crash_log_tip">非常抱歉，程序运行过程中出现了一个无法避免的错误。您可以将该问题发送给开发者，此举将有助于改善应用体验。由此给您带来的诸多不便，我们深表歉意，敬请谅解。</string>
+
+    <string name="invalid_link">无效的链接</string>
+
+</resources>
