@@ -5,14 +5,13 @@ import android.support.annotation.NonNull;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.annotations.SerializedName;
 
-import cn.tomoya.android.md.model.util.EntityUtils;
-import cn.tomoya.android.md.util.FormatUtils;
-
 import java.io.IOException;
 import java.net.ConnectException;
 import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 
+import cn.tomoya.android.md.model.util.EntityUtils;
+import cn.tomoya.android.md.util.FormatUtils;
 import retrofit2.Response;
 
 public class Result<T> {

@@ -7,12 +7,11 @@ import android.view.View;
 import android.widget.AbsListView;
 import android.widget.TextView;
 
-import cn.tomoya.android.md.R;
-import cn.tomoya.android.md.ui.widget.ListView;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import cn.tomoya.android.md.R;
+import cn.tomoya.android.md.ui.widget.ListView;
 
 public class LoadMoreFooter {
 

@@ -8,6 +8,10 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.tomoya.android.md.model.entity.Notification;
 import cn.tomoya.android.md.presenter.contract.INotificationPresenter;
 import cn.tomoya.android.md.presenter.implement.NotificationPresenter;
@@ -19,11 +23,6 @@ import cn.tomoya.android.md.ui.util.RefreshUtils;
 import cn.tomoya.android.md.ui.util.ThemeUtils;
 import cn.tomoya.android.md.ui.view.IBackToContentTopView;
 import cn.tomoya.android.md.ui.view.INotificationView;
-
-import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class NotificationActivity extends StatusBarActivity implements INotificationView, IBackToContentTopView, SwipeRefreshLayout.OnRefreshListener {
 

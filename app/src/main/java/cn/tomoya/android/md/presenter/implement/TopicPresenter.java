@@ -11,7 +11,6 @@ import cn.tomoya.android.md.model.entity.TopicWithReply;
 import cn.tomoya.android.md.model.storage.LoginShared;
 import cn.tomoya.android.md.presenter.contract.ITopicPresenter;
 import cn.tomoya.android.md.ui.view.ITopicView;
-
 import retrofit2.Response;
 
 public class TopicPresenter implements ITopicPresenter {

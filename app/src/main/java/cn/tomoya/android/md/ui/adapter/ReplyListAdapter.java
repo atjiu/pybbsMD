@@ -12,6 +12,14 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.entity.Reply;
 import cn.tomoya.android.md.presenter.contract.IReplyPresenter;
@@ -22,15 +30,6 @@ import cn.tomoya.android.md.ui.view.ICreateReplyView;
 import cn.tomoya.android.md.ui.view.IReplyView;
 import cn.tomoya.android.md.ui.widget.ContentWebView;
 import cn.tomoya.android.md.util.FormatUtils;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class ReplyListAdapter extends BaseAdapter {
 

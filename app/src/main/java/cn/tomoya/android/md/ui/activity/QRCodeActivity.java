@@ -19,14 +19,13 @@ import android.view.animation.AnimationUtils;
 
 import com.dlazaro66.qrcodereaderview.QRCodeReaderView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.ui.base.StatusBarActivity;
 import cn.tomoya.android.md.ui.dialog.AlertDialogUtils;
 import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
 import cn.tomoya.android.md.util.FormatUtils;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class QRCodeActivity extends StatusBarActivity implements QRCodeReaderView.OnQRCodeReadListener {
 

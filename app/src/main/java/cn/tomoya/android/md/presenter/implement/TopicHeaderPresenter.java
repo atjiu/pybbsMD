@@ -9,7 +9,6 @@ import cn.tomoya.android.md.model.entity.Result;
 import cn.tomoya.android.md.model.storage.LoginShared;
 import cn.tomoya.android.md.presenter.contract.ITopicHeaderPresenter;
 import cn.tomoya.android.md.ui.view.ITopicHeaderView;
-
 import retrofit2.Response;
 
 public class TopicHeaderPresenter implements ITopicHeaderPresenter {

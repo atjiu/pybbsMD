@@ -11,6 +11,9 @@ import android.view.View;
 
 import com.rengwuxian.materialedittext.MaterialEditText;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.entity.Author;
 import cn.tomoya.android.md.model.entity.Result;
@@ -27,10 +30,6 @@ import cn.tomoya.android.md.ui.util.ThemeUtils;
 import cn.tomoya.android.md.ui.util.ToastUtils;
 import cn.tomoya.android.md.ui.view.ILoginView;
 import cn.tomoya.android.md.util.FormatUtils;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 import retrofit2.Call;
 
 public class LoginActivity extends FullLayoutActivity implements ILoginView {

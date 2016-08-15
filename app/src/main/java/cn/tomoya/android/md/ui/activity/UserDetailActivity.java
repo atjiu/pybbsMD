@@ -21,6 +21,11 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.api.ApiDefine;
 import cn.tomoya.android.md.model.entity.Topic;
@@ -35,12 +40,6 @@ import cn.tomoya.android.md.ui.util.ThemeUtils;
 import cn.tomoya.android.md.ui.util.ToastUtils;
 import cn.tomoya.android.md.ui.view.IUserDetailView;
 import cn.tomoya.android.md.util.FormatUtils;
-
-import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class UserDetailActivity extends StatusBarActivity implements IUserDetailView, Toolbar.OnMenuItemClickListener {
 

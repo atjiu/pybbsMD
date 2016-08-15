@@ -13,6 +13,9 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.entity.Topic;
 import cn.tomoya.android.md.model.entity.TopicWithReply;
@@ -23,10 +26,6 @@ import cn.tomoya.android.md.ui.activity.UserDetailActivity;
 import cn.tomoya.android.md.ui.view.ITopicHeaderView;
 import cn.tomoya.android.md.ui.widget.ContentWebView;
 import cn.tomoya.android.md.util.FormatUtils;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class TopicHeader implements ITopicHeaderView {
 

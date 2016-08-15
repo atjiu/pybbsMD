@@ -11,7 +11,6 @@ import cn.tomoya.android.md.model.entity.Result;
 import cn.tomoya.android.md.presenter.contract.ILoginPresenter;
 import cn.tomoya.android.md.ui.view.ILoginView;
 import cn.tomoya.android.md.util.FormatUtils;
-
 import retrofit2.Call;
 import retrofit2.Response;
 

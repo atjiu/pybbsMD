@@ -2,9 +2,9 @@ package cn.tomoya.android.md.model.entity;
 
 import com.google.gson.annotations.SerializedName;
 
-import cn.tomoya.android.md.util.FormatUtils;
-
 import java.util.Date;
+
+import cn.tomoya.android.md.util.FormatUtils;
 
 public class Author {
 

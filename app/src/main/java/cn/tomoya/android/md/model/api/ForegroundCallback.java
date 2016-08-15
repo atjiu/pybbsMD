@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 
 import cn.tomoya.android.md.model.entity.Result;
 import cn.tomoya.android.md.ui.util.ActivityUtils;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

@@ -2,10 +2,9 @@ package cn.tomoya.android.md.model.util;
 
 import android.os.Build;
 
-import cn.tomoya.android.md.BuildConfig;
-
 import java.io.IOException;
 
+import cn.tomoya.android.md.BuildConfig;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
+import java.util.Date;
+
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.api.ApiClient;
 import cn.tomoya.android.md.model.api.DefaultCallback;
@@ -14,9 +16,6 @@ import cn.tomoya.android.md.model.storage.LoginShared;
 import cn.tomoya.android.md.model.storage.SettingShared;
 import cn.tomoya.android.md.presenter.contract.ICreateReplyPresenter;
 import cn.tomoya.android.md.ui.view.ICreateReplyView;
-
-import java.util.Date;
-
 import retrofit2.Response;
 
 public class CreateReplyPresenter implements ICreateReplyPresenter {

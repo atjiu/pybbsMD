@@ -10,6 +10,9 @@ import android.view.View;
 
 import com.melnykov.fab.FloatingActionButton;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.api.ApiDefine;
 import cn.tomoya.android.md.model.entity.Reply;
@@ -35,10 +38,6 @@ import cn.tomoya.android.md.ui.view.IReplyView;
 import cn.tomoya.android.md.ui.view.ITopicHeaderView;
 import cn.tomoya.android.md.ui.view.ITopicView;
 import cn.tomoya.android.md.ui.widget.TopicWebView;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class TopicCompatActivity extends StatusBarActivity implements ITopicView, ITopicHeaderView, IReplyView, SwipeRefreshLayout.OnRefreshListener, Toolbar.OnMenuItemClickListener {
 

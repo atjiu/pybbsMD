@@ -2,10 +2,10 @@ package cn.tomoya.android.md.model.entity;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Date;
+
 import cn.tomoya.android.md.model.api.ApiDefine;
 import cn.tomoya.android.md.util.FormatUtils;
-
-import java.util.Date;
 
 public class Reply {
 

@@ -17,6 +17,12 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.melnykov.fab.FloatingActionButton;
 
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.BindViews;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.model.entity.TabType;
 import cn.tomoya.android.md.model.entity.Topic;
 import cn.tomoya.android.md.model.storage.LoginShared;
@@ -39,13 +45,6 @@ import cn.tomoya.android.md.ui.viewholder.LoadMoreFooter;
 import cn.tomoya.android.md.ui.widget.ListView;
 import cn.tomoya.android.md.util.FormatUtils;
 import cn.tomoya.android.md.util.HandlerUtils;
-
-import java.util.List;
-
-import butterknife.BindView;
-import butterknife.BindViews;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class MainActivity extends FullLayoutActivity implements IMainView, IBackToContentTopView, SwipeRefreshLayout.OnRefreshListener, LoadMoreFooter.OnLoadMoreListener {
 

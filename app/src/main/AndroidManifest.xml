@@ -141,7 +141,7 @@
                 <data
                     android:scheme="https"
                     android:host="bbs.tomoya.cn"
-                    android:pathPrefix="/topic/" />
+                    android:pathPrefix="/t/" />
             </intent-filter>
             <intent-filter android:label="@string/app_name">
                 <action android:name="android.intent.action.VIEW" />

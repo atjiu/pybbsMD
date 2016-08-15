@@ -2,9 +2,9 @@ package cn.tomoya.android.md.ui.listener;
 
 import android.webkit.JavascriptInterface;
 
-import cn.tomoya.android.md.util.FormatUtils;
-
 import java.util.Date;
+
+import cn.tomoya.android.md.util.FormatUtils;
 
 public final class FormatJavascriptInterface {
 

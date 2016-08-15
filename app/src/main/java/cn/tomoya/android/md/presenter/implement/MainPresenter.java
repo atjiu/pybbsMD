@@ -17,7 +17,6 @@ import cn.tomoya.android.md.presenter.contract.IMainPresenter;
 import cn.tomoya.android.md.ui.util.ToastUtils;
 import cn.tomoya.android.md.ui.view.IMainView;
 import cn.tomoya.android.md.ui.viewholder.LoadMoreFooter;
-
 import retrofit2.Call;
 import retrofit2.Response;
 

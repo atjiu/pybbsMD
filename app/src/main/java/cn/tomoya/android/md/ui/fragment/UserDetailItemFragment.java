@@ -8,14 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import cn.tomoya.android.md.R;
-import cn.tomoya.android.md.model.entity.Topic;
-import cn.tomoya.android.md.ui.adapter.TopicSimpleListAdapter;
-
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import cn.tomoya.android.md.R;
+import cn.tomoya.android.md.model.entity.Topic;
+import cn.tomoya.android.md.ui.adapter.TopicSimpleListAdapter;
 
 public class UserDetailItemFragment extends Fragment {
 

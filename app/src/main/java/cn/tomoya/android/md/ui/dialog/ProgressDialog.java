@@ -9,11 +9,10 @@ import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
 
-import cn.tomoya.android.md.R;
-import cn.tomoya.android.md.model.storage.SettingShared;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import cn.tomoya.android.md.R;
+import cn.tomoya.android.md.model.storage.SettingShared;
 
 public class ProgressDialog extends AppCompatDialog {
 

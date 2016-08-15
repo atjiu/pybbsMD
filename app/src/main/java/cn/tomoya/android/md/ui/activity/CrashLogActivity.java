@@ -9,11 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import cn.tomoya.android.md.R;
-import cn.tomoya.android.md.ui.base.StatusBarActivity;
-import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
-import cn.tomoya.android.md.ui.util.Navigator;
-import cn.tomoya.android.md.ui.util.ThemeUtils;
 import org.joda.time.DateTime;
 
 import java.io.PrintWriter;
@@ -22,6 +17,11 @@ import java.io.Writer;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import cn.tomoya.android.md.R;
+import cn.tomoya.android.md.ui.base.StatusBarActivity;
+import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
+import cn.tomoya.android.md.ui.util.Navigator;
+import cn.tomoya.android.md.ui.util.ThemeUtils;
 
 public class CrashLogActivity extends StatusBarActivity implements Toolbar.OnMenuItemClickListener {
 

@@ -2,10 +2,10 @@ package cn.tomoya.android.md.ui.view;
 
 import android.support.annotation.NonNull;
 
+import java.util.List;
+
 import cn.tomoya.android.md.model.entity.Topic;
 import cn.tomoya.android.md.model.entity.User;
-
-import java.util.List;
 
 public interface IUserDetailView {
 

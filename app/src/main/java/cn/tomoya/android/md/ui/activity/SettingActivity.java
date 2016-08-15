@@ -6,15 +6,14 @@ import android.support.v7.widget.SwitchCompat;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.storage.SettingShared;
 import cn.tomoya.android.md.ui.base.StatusBarActivity;
 import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
 import cn.tomoya.android.md.ui.util.ThemeUtils;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class SettingActivity extends StatusBarActivity {
 

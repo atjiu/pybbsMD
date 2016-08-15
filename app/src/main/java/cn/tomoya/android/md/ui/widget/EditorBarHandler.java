@@ -9,12 +9,11 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.model.storage.SettingShared;
 import cn.tomoya.android.md.ui.activity.MarkdownPreviewActivity;
 import cn.tomoya.android.md.ui.dialog.AlertDialogUtils;
-
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class EditorBarHandler {
 

@@ -7,14 +7,14 @@ import android.os.Build;
 import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 
+import java.util.List;
+
 import cn.tomoya.android.md.model.entity.Notification;
 import cn.tomoya.android.md.model.util.EntityUtils;
 import cn.tomoya.android.md.ui.listener.FormatJavascriptInterface;
 import cn.tomoya.android.md.ui.listener.ImageJavascriptInterface;
 import cn.tomoya.android.md.ui.listener.NotificationJavascriptInterface;
 import cn.tomoya.android.md.ui.view.IBackToContentTopView;
-
-import java.util.List;
 
 public class NotificationWebView extends CNodeWebView implements IBackToContentTopView {
 

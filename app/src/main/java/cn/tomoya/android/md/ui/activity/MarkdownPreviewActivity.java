@@ -6,15 +6,14 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.Toolbar;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.ui.base.StatusBarActivity;
 import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
 import cn.tomoya.android.md.ui.util.ThemeUtils;
 import cn.tomoya.android.md.ui.widget.PreviewWebView;
 import cn.tomoya.android.md.util.FormatUtils;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class MarkdownPreviewActivity extends StatusBarActivity {
 

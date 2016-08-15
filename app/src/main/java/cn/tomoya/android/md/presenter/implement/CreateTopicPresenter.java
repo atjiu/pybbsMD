@@ -13,7 +13,6 @@ import cn.tomoya.android.md.model.storage.LoginShared;
 import cn.tomoya.android.md.model.storage.SettingShared;
 import cn.tomoya.android.md.presenter.contract.ICreateTopicPresenter;
 import cn.tomoya.android.md.ui.view.ICreateTopicView;
-
 import retrofit2.Response;
 
 public class CreateTopicPresenter implements ICreateTopicPresenter {

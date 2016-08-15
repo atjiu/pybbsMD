@@ -4,17 +4,16 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 
+import java.io.IOException;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.ui.base.StatusBarActivity;
 import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
 import cn.tomoya.android.md.ui.util.ThemeUtils;
 import cn.tomoya.android.md.ui.util.ToastUtils;
 import cn.tomoya.android.md.util.ResUtils;
-
-import java.io.IOException;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class LicenseActivity extends StatusBarActivity {
 

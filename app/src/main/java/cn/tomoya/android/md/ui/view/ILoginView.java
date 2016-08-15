@@ -4,7 +4,6 @@ import android.support.annotation.NonNull;
 
 import cn.tomoya.android.md.model.entity.Author;
 import cn.tomoya.android.md.model.entity.Result;
-
 import retrofit2.Call;
 
 public interface ILoginView {

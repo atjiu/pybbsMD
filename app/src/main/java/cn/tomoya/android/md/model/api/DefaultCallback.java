@@ -8,7 +8,6 @@ import cn.tomoya.android.md.model.entity.Result;
 import cn.tomoya.android.md.ui.activity.LoginActivity;
 import cn.tomoya.android.md.ui.dialog.AlertDialogUtils;
 import cn.tomoya.android.md.ui.util.ToastUtils;
-
 import retrofit2.Response;
 
 public class DefaultCallback<T extends Result> extends ForegroundCallback<T> {

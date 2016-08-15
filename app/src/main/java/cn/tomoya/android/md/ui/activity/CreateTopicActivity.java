@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.entity.TabType;
 import cn.tomoya.android.md.model.storage.SettingShared;
@@ -22,9 +24,6 @@ import cn.tomoya.android.md.ui.util.ThemeUtils;
 import cn.tomoya.android.md.ui.util.ToastUtils;
 import cn.tomoya.android.md.ui.view.ICreateTopicView;
 import cn.tomoya.android.md.ui.widget.EditorBarHandler;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class CreateTopicActivity extends StatusBarActivity implements Toolbar.OnMenuItemClickListener, ICreateTopicView {
 

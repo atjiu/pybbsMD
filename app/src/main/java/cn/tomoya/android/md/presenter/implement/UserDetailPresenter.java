@@ -3,6 +3,8 @@ package cn.tomoya.android.md.presenter.implement;
 import android.app.Activity;
 import android.support.annotation.NonNull;
 
+import java.util.List;
+
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.api.ApiClient;
 import cn.tomoya.android.md.model.api.ApiDefine;
@@ -15,9 +17,6 @@ import cn.tomoya.android.md.presenter.contract.IUserDetailPresenter;
 import cn.tomoya.android.md.ui.util.ActivityUtils;
 import cn.tomoya.android.md.ui.view.IUserDetailView;
 import cn.tomoya.android.md.util.HandlerUtils;
-
-import java.util.List;
-
 import retrofit2.Response;
 
 public class UserDetailPresenter implements IUserDetailPresenter {

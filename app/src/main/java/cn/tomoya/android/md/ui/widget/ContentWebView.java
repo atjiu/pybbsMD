@@ -80,6 +80,7 @@ public class ContentWebView extends CNodeWebView {
     }
 
     public void loadRenderedContent(String data) {
+        data = "<div class=\"markdown-text\">" + data + "</div>";
         data = HTML_0 + getThemeCssHtmlSlice(isDarkTheme()) + HTML_1 + data + "\n" + HTML_2;
         loadDataWithBaseURL(null, data, "text/html", "utf-8", null);
     }

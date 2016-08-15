@@ -5,12 +5,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import cn.tomoya.android.md.model.entity.Topic;
 import cn.tomoya.android.md.model.entity.User;
 import cn.tomoya.android.md.ui.fragment.UserDetailItemFragment;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserDetailPagerAdapter extends FragmentPagerAdapter {
 

@@ -12,12 +12,11 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.ui.base.StatusBarActivity;
 import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import uk.co.senab.photoview.PhotoView;
 
 public class ImagePreviewActivity extends StatusBarActivity {

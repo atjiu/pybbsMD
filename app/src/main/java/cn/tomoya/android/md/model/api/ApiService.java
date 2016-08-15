@@ -1,5 +1,7 @@
 package cn.tomoya.android.md.model.api;
 
+import java.util.List;
+
 import cn.tomoya.android.md.model.entity.Author;
 import cn.tomoya.android.md.model.entity.Notification;
 import cn.tomoya.android.md.model.entity.Page;
@@ -9,9 +11,6 @@ import cn.tomoya.android.md.model.entity.TabType;
 import cn.tomoya.android.md.model.entity.Topic;
 import cn.tomoya.android.md.model.entity.TopicWithReply;
 import cn.tomoya.android.md.model.entity.User;
-
-import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;

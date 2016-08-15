@@ -6,6 +6,11 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.entity.Notification;
 import cn.tomoya.android.md.presenter.contract.INotificationPresenter;
@@ -17,12 +22,6 @@ import cn.tomoya.android.md.ui.util.RefreshUtils;
 import cn.tomoya.android.md.ui.util.ThemeUtils;
 import cn.tomoya.android.md.ui.view.INotificationView;
 import cn.tomoya.android.md.ui.widget.NotificationWebView;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 public class NotificationCompatActivity extends StatusBarActivity implements INotificationView, SwipeRefreshLayout.OnRefreshListener {
 

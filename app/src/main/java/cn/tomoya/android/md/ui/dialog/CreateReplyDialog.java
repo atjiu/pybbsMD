@@ -12,6 +12,9 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.model.entity.Reply;
 import cn.tomoya.android.md.model.storage.SettingShared;
 import cn.tomoya.android.md.presenter.contract.ICreateReplyPresenter;
@@ -20,10 +23,6 @@ import cn.tomoya.android.md.ui.util.ToastUtils;
 import cn.tomoya.android.md.ui.view.ICreateReplyView;
 import cn.tomoya.android.md.ui.view.ITopicView;
 import cn.tomoya.android.md.ui.widget.EditorBarHandler;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class CreateReplyDialog extends AppCompatDialog implements ICreateReplyView {
 

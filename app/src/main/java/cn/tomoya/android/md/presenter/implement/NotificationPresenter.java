@@ -12,7 +12,6 @@ import cn.tomoya.android.md.model.entity.Result;
 import cn.tomoya.android.md.model.storage.LoginShared;
 import cn.tomoya.android.md.presenter.contract.INotificationPresenter;
 import cn.tomoya.android.md.ui.view.INotificationView;
-
 import retrofit2.Response;
 
 public class NotificationPresenter implements INotificationPresenter {

@@ -12,18 +12,19 @@ import android.widget.ListView;
 
 import com.melnykov.fab.FloatingActionButton;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.api.ApiDefine;
 import cn.tomoya.android.md.model.entity.Reply;
 import cn.tomoya.android.md.model.entity.Topic;
 import cn.tomoya.android.md.model.entity.TopicWithReply;
-import cn.tomoya.android.md.model.storage.SettingShared;
 import cn.tomoya.android.md.model.util.EntityUtils;
 import cn.tomoya.android.md.presenter.contract.ITopicPresenter;
 import cn.tomoya.android.md.presenter.implement.TopicPresenter;
 import cn.tomoya.android.md.ui.adapter.ReplyListAdapter;
 import cn.tomoya.android.md.ui.base.StatusBarActivity;
-import cn.tomoya.android.md.ui.dialog.AlertDialogUtils;
 import cn.tomoya.android.md.ui.dialog.CreateReplyDialog;
 import cn.tomoya.android.md.ui.listener.DoubleClickBackToContentTopListener;
 import cn.tomoya.android.md.ui.listener.NavigationFinishClickListener;
@@ -34,10 +35,6 @@ import cn.tomoya.android.md.ui.view.IBackToContentTopView;
 import cn.tomoya.android.md.ui.view.ICreateReplyView;
 import cn.tomoya.android.md.ui.view.ITopicView;
 import cn.tomoya.android.md.ui.viewholder.TopicHeader;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class TopicActivity extends StatusBarActivity implements ITopicView, IBackToContentTopView, SwipeRefreshLayout.OnRefreshListener, Toolbar.OnMenuItemClickListener {
 
@@ -72,13 +69,13 @@ public class TopicActivity extends StatusBarActivity implements ITopicView, IBac
         setContentView(R.layout.activity_topic);
         ButterKnife.bind(this);
 
-        if (SettingShared.isShowTopicRenderCompatTip(this)) {
-            SettingShared.markShowTopicRenderCompatTip(this);
-            AlertDialogUtils.createBuilderWithAutoTheme(this)
-                    .setMessage(R.string.topic_render_compat_tip)
-                    .setPositiveButton(R.string.ok, null)
-                    .show();
-        }
+//        if (SettingShared.isShowTopicRenderCompatTip(this)) {
+//            SettingShared.markShowTopicRenderCompatTip(this);
+//            AlertDialogUtils.createBuilderWithAutoTheme(this)
+//                    .setMessage(R.string.topic_render_compat_tip)
+//                    .setPositiveButton(R.string.ok, null)
+//                    .show();
+//        }
 
         topicId = getIntent().getStringExtra(Navigator.TopicWithAutoCompat.EXTRA_TOPIC_ID);
 

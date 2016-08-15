@@ -5,9 +5,9 @@ import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
-import cn.tomoya.android.md.util.Digest;
-
 import java.util.UUID;
+
+import cn.tomoya.android.md.util.Digest;
 
 public final class DeviceInfo {
 

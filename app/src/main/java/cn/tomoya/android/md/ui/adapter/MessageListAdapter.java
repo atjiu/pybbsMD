@@ -11,6 +11,12 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import cn.tomoya.android.md.R;
 import cn.tomoya.android.md.model.entity.Message;
 import cn.tomoya.android.md.model.entity.Notification;
@@ -19,13 +25,6 @@ import cn.tomoya.android.md.ui.util.Navigator;
 import cn.tomoya.android.md.ui.widget.ContentWebView;
 import cn.tomoya.android.md.util.FormatUtils;
 import cn.tomoya.android.md.util.ResUtils;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class MessageListAdapter extends RecyclerView.Adapter<MessageListAdapter.ViewHolder> {
 

@@ -11,18 +11,17 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-import cn.tomoya.android.md.R;
-import cn.tomoya.android.md.model.entity.TopicSimple;
-import cn.tomoya.android.md.ui.activity.UserDetailActivity;
-import cn.tomoya.android.md.ui.util.Navigator;
-import cn.tomoya.android.md.util.FormatUtils;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import cn.tomoya.android.md.R;
+import cn.tomoya.android.md.model.entity.TopicSimple;
+import cn.tomoya.android.md.ui.activity.UserDetailActivity;
+import cn.tomoya.android.md.ui.util.Navigator;
+import cn.tomoya.android.md.util.FormatUtils;
 
 public class TopicSimpleListAdapter extends RecyclerView.Adapter<TopicSimpleListAdapter.ViewHolder> {
 

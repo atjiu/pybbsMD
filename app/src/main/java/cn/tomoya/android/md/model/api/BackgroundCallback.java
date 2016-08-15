@@ -1,7 +1,6 @@
 package cn.tomoya.android.md.model.api;
 
 import cn.tomoya.android.md.model.entity.Result;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
