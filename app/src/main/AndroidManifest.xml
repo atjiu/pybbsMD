@@ -154,15 +154,6 @@
             </intent-filter>
         </activity>
 
-        <!-- 友盟参数 -->
-        <meta-data
-            android:name="UMENG_APPKEY"
-            android:value="${UMENG_APPKEY}" />
-
-        <meta-data
-            android:name="UMENG_CHANNEL"
-            android:value="${UMENG_CHANNEL}" />
-
     </application>
 
 </manifest>
