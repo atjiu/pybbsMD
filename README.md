@@ -1,5 +1,7 @@
 > 朋也社区APP是经过 [CNode-Material-Design](https://github.com/TakWolf/CNode-Material-Design) 修改的
 
+**bbs.tomoya.cn站关了，如果想用这个app的朋友，可以自行搭建[pybbs2.3](https://github.com/tomoya92/pybbs/tree/v2.3)服务器，然后将接口地址改一下即可使用**
+
 # 朋也社区 #
 
 ![Logo](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
