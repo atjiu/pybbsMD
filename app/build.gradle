@@ -1,15 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
-//String umengAppKey = System.getenv('CNODEMD_UMENG_APP_KEY')
-String umengAppKey = ""
-File localPropertiesFile = project.rootProject.file('local.properties')
-if (localPropertiesFile.exists()) {
-    Properties properties = new Properties()
-    properties.load(localPropertiesFile.newDataInputStream())
-    umengAppKey = properties.getProperty("umeng.appkey", umengAppKey)
-}
-
 android {
 
     compileSdkVersion 24
@@ -21,11 +12,6 @@ android {
         targetSdkVersion 24
         versionCode Integer.parseInt(new Date().format("yyyyMMdd"))
         versionName "1.1"
-
-        manifestPlaceholders = [
-                UMENG_CHANNEL: "pybbsmd",
-                UMENG_APPKEY: umengAppKey
-        ]
     }
 
     buildTypes {
@@ -73,6 +59,4 @@ dependencies {
 
     compile 'org.tautua.markdownpapers:markdownpapers-core:1.4.4'
     compile 'org.jsoup:jsoup:1.9.2'
-
-    compile 'com.umeng.analytics:analytics:6.0.1'
 }
